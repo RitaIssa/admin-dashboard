@@ -7,22 +7,66 @@
     <title>Admin Dashboard</title>
 </head>
 <body>
-    <div class="sidebar">
-        <div class="dashboard">Dashboard</div>
-        <ol class="first-list">
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Tasks</li>
-            <li>Communities</li>
-        </ol>
+    <div class="dashboard">
 
-        <ol class="second-list">
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
-        </ol>
+        <div class="sidebar">
+
+            <div class="title"> <img class="bigger-icon" src="icons/logo.svg">Dashboard</div>
+            <ul class="first-list">
+                <li><img class="sidebar-icons" src="icons/home.svg">Home</li>
+                <li><img class="sidebar-icons" src="icons/profile.svg">Profile</li>
+                <li><img class="sidebar-icons" src="icons/message.svg">Messages</li>
+                <li><img class="sidebar-icons" src="icons/history.svg">History</li>
+                <li><img class="sidebar-icons" src="icons/task.svg">Tasks</li>
+                <li><img class="sidebar-icons" src="icons/community.svg">Communities</li>
+            </ul>
+            <ul class="second-list">
+                <li><img class="sidebar-icons" src="icons/setting.svg">Settings</li>
+                <li><img class="sidebar-icons" src="icons/support.svg">Support</li>
+                <li><img class="sidebar-icons" src="icons/privacy.svg">Privacy</li>
+            </ul>
+        </div>
+
+        <div class="right-content">
+            <div class="header">
+                <img class="magnify-icons" src="icons/magnify.svg">
+                <input type="text" class="search-input">
+                <img class="bell-icons" src="icons/bell.svg">
+                <img class="profile-img" src="profiles/penguin.png">
+                <div class="profile-name">Morgan Oakley</div>
+            </div>
+
+            <div class="below-header">
+                <img class="bigger-profile-img" src="profiles/penguin.png">
+                <p>Hi there, <br> Morgan Oakley (@morgan) </p>
+                <button class="left">New</button>
+                <button class="middle">Upload</button>
+                <button class="right">Share</button>
+            </div>
+
+            <div class="right-text">
+                <div class="projects">
+                    <div class="project-cards"><b style="color: black">Super Cool Project</b> <br> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <img class="project-icons" id="star" src="icons/star.svg"> <img class="project-icons" src="icons/eye.svg"> <img class="project-icons" src="icons/source-fork.svg"></div>
+                    <div class="project-cards"><b style="color: black">Less Cool Project</b> <br>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi. <img class="project-icons" id="star" src="icons/star.svg"> <img class="project-icons" src="icons/eye.svg"> <img class="project-icons" src="icons/source-fork.svg"> </div>
+                    <div class="project-cards"><b style="color: black">Impossible App</b> <br>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. <img class="project-icons" id="star" src="icons/star.svg"> <img class="project-icons" src="icons/eye.svg"> <img class="project-icons" src="icons/source-fork.svg"> </div>
+                    <div class="project-cards"><b style="color: black">Easy Peasy App</b> <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  <img class="project-icons" id="star" src="icons/star.svg"> <img class="project-icons" src="icons/eye.svg"> <img class="project-icons" src="icons/source-fork.svg"></div>
+                    <div class="project-cards"><b style="color: black">Add Blocker</b> <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <img class="project-icons" id="star" src="icons/star.svg"> <img class="project-icons" src="icons/eye.svg"> <img class="project-icons" src="icons/source-fork.svg"></div>
+                    <div class="project-cards"><b style="color: black">Money Maker</b> <br>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis. <img class="project-icons" id="star" src="icons/star.svg"> <img class="project-icons" src="icons/eye.svg"> <img class="project-icons" src="icons/source-fork.svg"></div>
+                </div>
+
+                <div class="announcements">
+                    <div class="announcement-cards"><b style="color: black">Site Maintenance</b> <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                    <div class="announcement-cards" id="second"><b style="color: black">Community Share Day</b> <br>"Sed ut perspiciatis unde omnis iste natus error sit. voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</div>
+                    <div class="announcement-cards"><b style="color: black">Updated Privacy Policy</b> <br>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
+                </div>
+               
+                <div class="trending">
+                    <div class="trending-cards"><img class="trending-icons" src="profiles/cat.jpg"><b style="color: black">@tegan</b> <br>World Peace Builder</div>
+                    <div class="trending-cards"><img class="trending-icons" src="profiles/penguin.png"><b style="color: black">@morgan</b> <br>Super Cool Project</div>
+                    <div class="trending-cards"><img class="trending-icons" src="profiles/dog.jpg"><b style="color: black">@kendall</b> <br>Life Changing App</div>
+                    <div class="trending-cards"><img class="trending-icons" src="profiles/bear.jpg"><b style="color: black">@alex</b> <br>No Tracffic Maker</div>
+                </div>
+        </div>
     </div>
 </body>
 </html>
